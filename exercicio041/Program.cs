@@ -25,12 +25,12 @@ totalParafusos = parafuso * precoParafuso * (20 / 100);
 totalPorcas = porca * precoPorca * (10 / 100);
 totalArruelas = arruela * precoArruela * (30 / 100);
 
-descPorcas = totalParafusos * (20 / 100);
+descParafusos = totalParafusos * (20 / 100);
 descPorcas = totalPorcas * (10 / 100);
 descArruelas = totalArruelas * (30 / 100);
 
 total = totalParafusos + totalPorcas + totalArruelas;
-totalDesconto = descPorcas + descPorcas + descArruelas;
+totalDesconto = descParafusos + descPorcas + descArruelas;
 
 Console.WriteLine("Cliente: " + nome);
 Console.WriteLine("Parafusos : " + parafuso);

@@ -4,7 +4,7 @@ int carros, vendas;
 
 Console.WriteLine("Digite o valor do salário: ");
 salario = int.Parse(Console.ReadLine());
-Console.WriteLine("Digite a quantidade de corros vendidos: ");
+Console.WriteLine("Digite a quantidade de carros vendidos: ");
 carros = int.Parse(Console.ReadLine());
 Console.WriteLine("Digite o valor total das vendas: ");
 vendas = int.Parse(Console.ReadLine());

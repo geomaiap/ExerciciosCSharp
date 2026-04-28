@@ -4,8 +4,7 @@ int idade, ano;
 
 Console.WriteLine("Digite sua idade: ");
 idade = int.Parse(Console.ReadLine());
-Console.WriteLine("Digite o ano: ");
-ano = int.Parse(Console.ReadLine());
+ano = 360;
 
 int total = idade * ano;
 

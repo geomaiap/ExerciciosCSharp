@@ -1,16 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information "
 using System.ComponentModel.Design;
 
-int Port, Mat, CG, media, notas;
+float Port, Mat, CG, media, notas;
 string nome;
 Console.WriteLine("Digite o seu nome: ");
 nome = Console.ReadLine();
 Console.WriteLine("Digite a nota de Português: ");
-Port = int.Parse(Console.ReadLine());
+Port = float.Parse(Console.ReadLine());
 Console.WriteLine("Digite a nota de Matemática: ");
-Mat = int.Parse(Console.ReadLine());
+Mat = float.Parse(Console.ReadLine());
 Console.WriteLine("Digite a nota de Conhecimentos Gerais: ");
-CG = int.Parse(Console.ReadLine());
+CG = float.Parse(Console.ReadLine());
 media = (Port + Mat + CG) / 3;
 
  Console.WriteLine(nome + ", sua note em português é  " + Port + ", sua nota em matematica é " + Mat + " e a nota " +
